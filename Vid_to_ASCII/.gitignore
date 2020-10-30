@@ -1,0 +1,11 @@
+
+
+#Allow
+
+!test.sh
+!created/.created
+
+#Ignore
+
+created/*
+./*
