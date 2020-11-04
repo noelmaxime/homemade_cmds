@@ -78,9 +78,9 @@ def add(fileordir):
   ch_exist()
 
   if fileordir==".":
-    os.system("rsync -a . " + local_cmd_dir + "&")
+    os.system("rsync -av . " + local_cmd_dir + "&")
   else:
-    os.system("rsync -a " + fileordir + " " +  local_cmd_dir + "&")
+    os.system("rsync -av " + fileordir + " " +  local_cmd_dir + "&")
 
 
 #def set():
