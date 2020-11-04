@@ -6,7 +6,7 @@ lof=[]
 mf=[]
 init=False
 
-if os.path.exists(local_cmd_dir):
+if os.path.exists(local_cmd_dir + ".cmd_ign"):
   init=True
 
 
