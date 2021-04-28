@@ -1,6 +1,6 @@
 import os
 from funcs import *
-cmd_line=list((os.environ['cmd_line']).split(" "))
+cmd_line = list((os.environ['cmd_line']).split(" "))
 val_args=["status" , "rm" , "push" , "def" , "init", "add"]
 param=cmd_line[0]
 args=cmd_line[1:-1]
